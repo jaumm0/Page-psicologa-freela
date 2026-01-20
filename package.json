@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jaumm0.github.io/Page-psicologa-freela",
   "name": "page-psicologa",
   "private": true,
   "version": "0.0.0",
@@ -31,3 +32,4 @@
     "vite": "^7.2.4"
   }
 }
+
