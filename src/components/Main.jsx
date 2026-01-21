@@ -7,9 +7,9 @@ function Main (){
     return(
         <div>
             <div 
-            className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1  w-full h-180 bg-mainbg px-10 pt-20 ">
+            className="grid grid-cols-2 w-full h-180 bg-mainbg px-10 pt-20 ">
             <section 
-            className="grid lg:grid-cols- md:grid-rows-5 sm-rows-2 pt-10 w-190 h-180  px-10"
+            className="grid grid-cols-1 grid-rows-5 pt-10 w-190 h-180 px-10"
             >
                 <span
                 className="text-textmain pt-20 font-medium text-lg place-self-center pr-94"
@@ -33,7 +33,7 @@ function Main (){
                     você alcançar equilíbrio emocional e qualidade de vida.
                 </p>
                 <section 
-                className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 py-20"
+                className="grid grid-cols-2 py-20"
                 >
                     <button
                     className="font-medium text-lg w-80 h-13 text-white hover:bg-hoverBtn rounded-xl bg-buttonp cursor-pointer"
@@ -46,7 +46,7 @@ function Main (){
                         Conhecer Mais
                     </button>
                     <ul
-                    className="grid lg:grid-cols-3 md:grid-cols-3 sm:cols-0 py-10 w-150 place-items-center divide-x-1 border-ulheader "
+                    className="grid grid-cols-3 py-10 w-150 place-items-center divide-x-1 border-ulheader"
                     >
                         <li
                         className="place-items-center pr-5"
@@ -88,18 +88,19 @@ function Main (){
                       <aside
                     className="place-self-center h-full  "
                     >
-                    <section
-                    className="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-2 bg-gray-200 -z-10 rotate-3  w-160 h-170 rounded-xl    "
-                    >
+                        <section
+                        className="grid grid-cols-1 bg-gray-200 -z-10 rotate-3 w-160 h-170 rounded-xl"
+
+                        >
                         <img
-                        className="lg:w-140 md:w-120 sm:w-full lg:h-160 md:h-140 sm:h-auto object-cover object-[50%_50%] -z-10 rounded-xl rotate-357 place-self-center"
+                        className="w-140 h-160 object-cover object-[50%_50%] -z-10 rounded-xl rotate-357 place-self-center  "
                         src={Assets} alt="" />
                       
                         </section>
                     </aside>
             </div>
             
-                <section className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1  w-60 h-20  items-center position relative bottom-10 left-180 rounded-xl shadow-xl bg-white ">
+                <section className="grid grid-cols-2 w-60 h-20 items-center position relative bottom-10 left-180 rounded-xl shadow-xl bg-white">
                     {/* Esquerda - Green Heart Centralizado */}
                     <div className="flex justify-center items-center ">
                        
