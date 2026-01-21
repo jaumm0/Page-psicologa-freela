@@ -9,7 +9,7 @@ function Header (){
                 <h2 
                 className="text-2xl pr-123 font-xl font-cormorant   "
                 >
-                    <a href="Inicio">Dra.Ana Beatriz</a>
+                    <a href="#Inicio">Dra.Ana Beatriz</a>
                 </h2>
                 <ul 
                 className="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-rows-1 text-md font-inter font-medium place-items-center pr-25 pl-5  >"
