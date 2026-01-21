@@ -88,12 +88,11 @@ function Main (){
                       <aside
                     className="place-self-center h-full  "
                     >
-                        <section
-                        className="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-2 bg-gray-200 -z-10 rotate-3  w-160 h-170 rounded-xl    "
-
-                        >
+                    <section
+                    className="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-2 bg-gray-200 -z-10 rotate-3  w-160 h-170 rounded-xl    "
+                    >
                         <img
-                        className="w-140 h-160 object-cover object-[50%_50%] -z-10 rounded-xl rotate-357 place-self-center  "
+                        className="lg:w-140 md:w-120 sm:w-full lg:h-160 md:h-140 sm:h-auto object-cover object-[50%_50%] -z-10 rounded-xl rotate-357 place-self-center"
                         src={Assets} alt="" />
                       
                         </section>

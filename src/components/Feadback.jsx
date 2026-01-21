@@ -14,13 +14,13 @@ function Feadback() {
             Histórias de transformação
           </h2>
 
-          <span className="text-ulheader font-inter font-medium text-justify text-lg items-center px-55">
+          <span className="text-ulheader font-inter font-medium text-justify text-lg px-55">
             A satisfação dos meus pacientes é o que me motiva a cada dia.
           </span>
         </div>
       </section>
 
-      <ul className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 bg-Servicesbg w-full px-20 py-20 gap-10 place-items-center">
+      <ul className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 bg-Servicesbg w-full px-20 py-20 gap-10 place-items-center">
         <li className="w-100 h-60 rounded-xl bg-whitecream px-5 hover:scale-x-105 hover:scale-y-105 transition-all duration-150 shadow-xl">
           <span className="bg-bgIcon rounded-full w-10 h-10 flex justify-center items-center mt-5 mb-5">
             <img className="" src={star} alt="" />
@@ -41,7 +41,7 @@ function Feadback() {
           </span>
         </li>
 
-        <li className="w-100 h-60 rounded-xl bg-whitecream px-7 hover:scale-x-105 hover:scale-y-105 transition-all duration-150 shadow-xl">
+        <li className="w-100 h-60 rounded-xl bg-whitecream px-5 hover:scale-x-105 hover:scale-y-105 transition-all duration-150 shadow-xl">
           <span className="bg-bgIcon rounded-full w-10 h-10 flex justify-center items-center mt-5 mb-5">
             <img className="" src={star} alt="" />
           </span>
