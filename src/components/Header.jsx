@@ -1,39 +1,65 @@
+/**
+ * COMPONENTE: Header (Navegação Principal)
+ * ========================================
+ * Barra de navegação fixa no topo do site com logo, menu e CTA.
+ * 
+ * Características:
+ * - Layout responsivo (2 colunas desktop, 1 coluna mobile)
+ * - Menu de navegação com links internos (âncoras)
+ * - Botão CTA "Agendar Consulta"
+ * - Efeito hover em links
+ * 
+ * @component
+ * @returns {JSX.Element} Header com navegação
+ */
+
 import React from "react";
 
-function Header (){
+/**
+ * Componente Header - Renderiza a navegação principal
+ * @returns {JSX.Element}
+ */
+function Header () {
     return(
         <div id="Header">
             <header 
             className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 py-4 px-5 gap bg-gray-200 z-10 position fixed place-items-center"
             >
+                {/* LOGO/NOME */}
                 <h2 
                 className="text-2xl pr-123 font-xl font-cormorant   "
                 >
                     <a href="#Header">Dra.Ana Beatriz</a>
                 </h2>
+                {/* MENU NAVEGAÇÃO */}
                 <ul 
                 className="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-rows-1 text-md font-inter font-medium place-items-center pr-25 pl-5 >"
                 >
+                    {/* Link: Sobre */}
                     <li
                     className="text-ulheader hover:text-hovertxt transition duration-200" 
                     >
                         <a href="#Sobre">Sobre</a>
                     </li>
+                    {/* Link: Serviços */}
                     <li
                      className="text-ulheader hover:text-hovertxt  transition duration-200" 
                     >
                         <a href="#Services">Serviços</a>
                     </li>
+                    {/* Link: Depoimentos */}
                     <li
                      className="text-ulheader hover:text-hovertxt  transition duration-200" 
                     >
                         <a href="#Feadback">Depoimentos</a>
                     </li>
+                    {/* Link: Contato */}
                     <li
                      className="text-ulheader hover:text-hovertxt  transition duration-200 " 
                     >
                         <a href="#Contact">Contato</a>
                     </li>
+                    {/* BOTÃO CTA */}
                     <button
                     className="font-medium text-lg w-50 h-13 ml-25 text-white cursor-pointer  rounded-xl bg-buttonp hover:bg-hoverBtn "
                     >
