@@ -9,11 +9,11 @@ import statusbar from "./Assets/sparkles.png";
 function Services (){
     return(
         <section id="Services"
-        className="grid grid-rows-1 place-items-center bg-Servicesbg"   
+        className="grid lg:grid-rows-1 place-items-center bg-Servicesbg"   
         >
             <section>
             <div
-            className="grid grid-rows-3 w-full px-10 py-10 place-items-center"
+            className="grid lg:grid-rows-3 md:grid-rows-3 sm:grid-rows-1 w-full px-10 py-10 place-items-center"
             >
                 <span
                 className="text-textmain font-cormorant font-medium text-2xl"
@@ -34,7 +34,7 @@ function Services (){
             </div>
         </section>
             <ul
-            className="grid grid-cols-3 bg-Servicesbg w-full px-20 py-20 gap-10 place-items-center"
+            className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 bg-Servicesbg w-full px-20 py-20 gap-10 place-items-center"
             >
                 <li
                 className="w-100 h-60 rounded-xl bg-whitecream px-5 hover:scale-x-105 hover:scale-y-105 transition-all duration-150 ">

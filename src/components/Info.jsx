@@ -5,7 +5,7 @@ function Info (){
     return(
         <section id="Sobre"
         
-        className="grid grid-cols-2 w-full px-20 py-20 gap-10 place-items-center pr-10"
+        className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 w-full px-20 py-20 gap-10 place-items-center pr-10"
         >
             <div
             className="rotate-3 bg-gray-200 w-160 h-135  place-items-center flex justify-center items-center rounded-xl shadow-lg "
@@ -17,7 +17,7 @@ function Info (){
                 alt="" />
             </div>
             <aside
-            className="grid grid-rows-3 bg-white w-160 h-140 px-10 py-10 place-items-center rounded-xl shadow-lg"
+            className="grid lg:grid-rows-3 md:grid-rows-3 sm:grid-rows-1 bg-white w-160 h-140 px-10 py-10 place-items-center rounded-xl shadow-lg"
             >
                 <span
                 className="text-textmain font-cormorant font-z text-2xl h-10 mb-20  ">
@@ -49,7 +49,7 @@ function Info (){
                     </li>
                 </ul>
                 <ul
-                className="font-inter font-medium text-ulheader text-justify grid grid-cols-3 gap-20 text-sm w-120 h-10 place-self-center place-items-center">
+                className="font-inter font-medium text-ulheader text-justify grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-20 text-sm w-120 h-10 place-self-center place-items-center">
                     <li
                     className="bg-bgIcon h-8 flex justify-center text-textmain items-center w-40 rounded-xl shadow-lg "
                     >   

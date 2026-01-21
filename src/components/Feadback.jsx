@@ -3,9 +3,9 @@ import star from "./Assets/star.png";
 
 function Feadback() {
   return (
-    <section id="Feadback" className="grid grid-rows-1 place-items-center bg-feadbackBg">
+    <section id="Feadback" className="grid lg:grid-rows-1 place-items-center bg-feadbackBg">
       <section>
-        <div className="grid grid-rows-3 w-full px-10 py-10 place-items-center">
+        <div className="grid lg:grid-rows-3 md:grid-rows-3 sm:grid-rows-1 w-full px-10 py-10 place-items-center">
           <span className="text-textmain font-cormorant font-medium text-2xl">
             Depoimentos
           </span>
@@ -20,7 +20,7 @@ function Feadback() {
         </div>
       </section>
 
-      <ul className="grid grid-cols-3 bg-Servicesbg w-full px-20 py-20 gap-10 place-items-center">
+      <ul className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 bg-Servicesbg w-full px-20 py-20 gap-10 place-items-center">
         <li className="w-100 h-60 rounded-xl bg-whitecream px-5 hover:scale-x-105 hover:scale-y-105 transition-all duration-150 shadow-xl">
           <span className="bg-bgIcon rounded-full w-10 h-10 flex justify-center items-center mt-5 mb-5">
             <img className="" src={star} alt="" />

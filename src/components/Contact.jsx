@@ -8,9 +8,9 @@ import { MapPin,Clock,Smartphone,Mail,Instagram,Linkedin } from 'lucide-react';
 
 function  Contact() {
   return (
-    <section id="Contact" className="grid grid-cols-2 w-full px-20 py-20 gap-10 place-items-center pr-10">
+    <section id="Contact" className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 w-full px-20 py-20 gap-10 place-items-center pr-10">
       <div className="bg-textmain w-160 h-120 place-items-center flex  justify-center items-center rounded-xl shadow-lg">
-        <section className="font-medium text-white text-justify px-10 mb-10 grid grid-rows-3">
+        <section className="font-medium text-white text-justify px-10 mb-10 grid lg:grid-rows-3 md:grid-rows-3 sm:grid-rows-1">
           <h2 className="text-5xl font-cormorant font-medium h-15 pt-15">
             Pronto para dar o primeiro passo?
           </h2>
@@ -20,7 +20,7 @@ function  Contact() {
           </p>
 
           <div className="pt-5 mb-3 ">
-            <section className="grid grid-cols-2 w-30 items-center">
+            <section className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 w-30 items-center">
               {/* Esquerda -  */}
                     <Clock size={40} className=" p-1 rounded-xl  bg-footerbg" />  
               {/* Direita -  */}
@@ -66,7 +66,7 @@ function  Contact() {
         </section> 
       </div>
 
-      <aside className="grid grid-rows-3 bg-white w-160 h-130 px-10 py-10 rounded-xl shadow-lg">
+      <aside className="grid lg:grid-rows-3 md:grid-rows-3 sm:grid-rows-1 bg-white w-160 h-130 px-10 py-10 rounded-xl shadow-lg">
         <span className="text-textmain font-cormorant font-z text-2xl h-10 pt-5 ">
           Contato 
           <h2 className="font-cormorant text-h1color text-4xl h-10 font-medium py-5">
