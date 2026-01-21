@@ -3,7 +3,7 @@ import star from "./Assets/star.png";
 
 function Feadback() {
   return (
-    <section className="grid lg:grid-rows-1 place-items-center bg-feadbackBg">
+    <section id="Feadback" className="grid lg:grid-rows-1 place-items-center bg-feadbackBg">
       <section>
         <div className="grid lg:grid-rows-3 md:grid-rows-3 sm:grid-rows-1 w-full px-10 py-10 place-items-center">
           <span className="text-textmain font-cormorant font-medium text-2xl">

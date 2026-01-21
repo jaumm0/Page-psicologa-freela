@@ -3,7 +3,7 @@ import therapy from "./Assets/therapy-office.jpg";
 
 function Info (){
     return(
-        <section
+        <section id="Sobre"
         
         className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1  w-full px-20 py-20 gap-10 place-items-center  pr-10 "
         >
@@ -34,7 +34,7 @@ function Info (){
                 className="font-inter font-medium text-ulheader text-justify mb-50 py-2"
                 >
                     <li
-                    className="mb-5"
+                    className="mb-5"    
                     >
                     Sou Ana Beatriz, psicóloga clínica com mais de 12 anos de experiência no atendimento de adultos, adolescentes e casais.
 

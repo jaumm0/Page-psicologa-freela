@@ -6,6 +6,7 @@ import Info from './components/Info'
 import Services from './components/Services'
 import Feadback from './components/Feadback'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
  
@@ -20,6 +21,7 @@ function App() {
     <Services/>
     <Feadback/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

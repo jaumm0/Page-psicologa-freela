@@ -8,7 +8,7 @@ import statusbar from "./Assets/sparkles.png";
 
 function Services (){
     return(
-        <section 
+        <section id="Services"
         className="grid lg:grid-rows-1 place-items-center bg-Servicesbg  "   
         >
             <section>

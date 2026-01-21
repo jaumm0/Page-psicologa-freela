@@ -24,7 +24,10 @@
   --color-whitecream:#F7F6F2;
   --color-Servicesbg:#fbfaf8;
   --color-feadbackBg: #F3F5F1;
+  --color-footerbg: #7FAA91;
+  --color-bgFooter:#38332E;
 }
 html, body {
   @apply min-h-screen bg-mainbg;
 }
+
