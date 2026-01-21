@@ -9,23 +9,34 @@
 }
 
 @theme {
-
-
-  --color-ulheader: #84796e;    
-  --color-buttonp: #db8b70;
-  --color-textmain: #568f6e;
-  --color-h1color: #38332e;
-  --color-spancolor: #7e7367;
-  --color-buttonS: #568f6e;
-  --color-hovertxt: #4a4f56;
-  --color-hoverBtn: #db9b85;
-  --color-bgIcon: #E7EFEA;
-  --color-mainbg: #f5f5f4;
-  --color-whitecream:#F7F6F2;
-  --color-Servicesbg:#fbfaf8;
-  --color-feadbackBg: #F3F5F1;
-  --color-footerbg: #7FAA91;
-  --color-bgFooter:#38332E;
+  /* ==========================================
+     PALETA DE CORES - TEMA PSICÓLOGA
+     ========================================== */
+  
+  /* CORES PRIMÁRIAS */
+  --color-textmain: #568f6e;        /* Verde principal - textos e botões */
+  --color-buttonp: #db8b70;         /* Laranja - botões primários */
+  --color-buttonS: #568f6e;         /* Verde - botões secundários */
+  
+  /* CORES DE TEXTO */
+  --color-h1color: #38332e;         /* Marrom escuro - títulos H1 */
+  --color-hovertxt: #4a4f56;        /* Cinza escuro - hover de textos */
+  --color-spancolor: #7e7367;       /* Cinza marrom - spans e textos secundários */
+  --color-ulheader: #84796e;        /* Marrom claro - header/nav */
+  
+  /* CORES DE HOVER */
+  --color-hoverBtn: #db9b85;        /* Laranja mais claro - hover de botões */
+  
+  /* CORES DE FUNDO */
+  --color-mainbg: #f5f5f4;          /* Bege principal - background geral */
+  --color-whitecream: #F7F6F2;      /* Bege claro - backgrounds secundários */
+  --color-Servicesbg: #fbfaf8;      /* Bege muito claro - background de serviços */
+  --color-feadbackBg: #F3F5F1;      /* Bege verde - background de feedback */
+  --color-bgIcon: #E7EFEA;          /* Verde muito claro - background de ícones */
+  
+  /* CORES DE FOOTER */
+  --color-footerbg: #7FAA91;        /* Verde médio - footer background */
+  --color-bgFooter: #38332E;        /* Marrom escuro - footer texto escuro */
 }
 html, body {
   @apply min-h-screen bg-mainbg;
