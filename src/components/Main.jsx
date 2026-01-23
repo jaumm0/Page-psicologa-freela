@@ -51,7 +51,7 @@ function Main ({ onAgendarClick }){
                         </button>
                         <button
                         onClick={() => document.getElementById('Sobre')?.scrollIntoView({ behavior: 'smooth' })}
-                        className="font-medium lg:text-lg md:text-base sm:text-sm sm:w-50  w-40  h-13 px-2 md:w-40  text-textmain rounded-xl hover:bg-buttonS border-2 border-buttonS hover:text-white transition-all duration-150 cursor-pointer"
+                        className="font-medium lg:text-lg md:text-base sm:text-sm sm:w-50  w-40  h-13 px-2 md:w-40 lg:w-70  text-textmain rounded-xl hover:bg-buttonS border-2 border-buttonS hover:text-white transition-all duration-150 cursor-pointer"
                         > 
                             Conhecer Mais
                         </button>

@@ -4,13 +4,13 @@ import therapy from "./Assets/therapy-office.jpg";
 function Info (){
     return(
         <section id="Sobre"
-        className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 w-90 place-self-center sm:w-full md:w-full lg:w-full lg:px-20 md:px-10 sm:px-6 lg:py-20 md:py-12 sm:py-8 gap-10 place-items-center"
+        className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 w-90 place-self-center sm:w-full md:w-100 lg:w-300 lg:px-20 md:px-10 sm:px-6 lg:py-20 md:py-12 sm:py-8 gap-10 place-items-center"
         >
             <div
-            className="rotate-3 bg-gray-200 md:hidden lg:w-160 md:w-140 sm:w-full lg:h-135 md:h-120 sm:h-auto place-items-center flex justify-center items-center rounded-xl shadow-lg"
+            className="rotate-3 bg-gray-200 md:hidden lg:block hidden  lg:w-160 md:w-100 sm:w-full lg:h-135 md:h-120 sm:h-auto place-items-center flex justify-center items-center rounded-xl shadow-lg"
             >
                 <img 
-                className="rotate-357  rounded-xl shadow-lg lg:w-140 md:w-120 sm:w-full hidden sm:block lg:h-120 md:h-100 sm:h-auto object-cover object-[50%_50%]"
+                className="rotate-357  rounded-xl shadow-lg lg:w-140 md:w-120 sm:w-full md:block sm:block lg:h-120 md:h-100 sm:h-auto object-cover object-[50%_50%]"
                 src={therapy}
                 alt="" />
             </div>
