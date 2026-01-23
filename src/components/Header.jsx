@@ -25,7 +25,7 @@ function Header ({ onAgendarClick }){
                 
                 {/* Menu Desktop */}
                 <ul 
-                className="hidden lg:flex md:flex sm:hidden  gap-2 lg:gap-4 text-xs lg:text-base md:text-sm font-inter font-medium items-center"
+                className="hidden lg:flex md:flex  sm:hidden  gap-4 lg:gap-4 text-xs lg:text-base md:text-sm font-inter font-medium items-center"
                 >
                     <li className="text-ulheader hover:text-hovertxt transition duration-200 whitespace-nowrap">
                         <a href="#Sobre">Sobre</a>
@@ -41,9 +41,9 @@ function Header ({ onAgendarClick }){
                     </li>
                     <button
                     onClick={onAgendarClick}
-                    className="font-medium text-xs lg:text-base md:text-sm px-2 lg:px-4 py-1.5 lg:py-2 pr-10 text-white cursor-pointer rounded-xl bg-buttonp hover:bg-hoverBtn whitespace-nowrap transition-all duration-200"
+                    className="font-medium text-xs lg:text-base md:text-sm px-2 md:px-4 lg:px-4 py-1.5  lg:py-2 pr-10 text-white cursor-pointer rounded-xl bg-buttonp hover:bg-hoverBtn whitespace-nowrap transition-all duration-200"
                     >
-                        Agendar
+                       <a href="#Agendar">Agendar</a>
                     </button>
                 </ul>
 
