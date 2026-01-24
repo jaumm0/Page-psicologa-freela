@@ -50,7 +50,7 @@ function Contact({ onAgendarClick }) {
           </div>
           <button 
             onClick={onAgendarClick}
-            className="bg-white cursor-pointer text-textmain hover:bg-gray-100 hover:scale-105 transition-all duration-300 font-cormorant font-medium lg:text-lg md:text-base sm:text-sm w-40 h-11 sm:w-full md:w-full lg:w-full   ml-5 sm:ml-0 md:ml-0 lg:ml-0  lg:w-auto md:w-auto sm:w-full lg:h-10 md:h-9 sm:h-9 px-5 rounded-xl shadow-lg lg:my-3 md:my-2 sm:my-2"
+            className="bg-white cursor-pointer text-textmain hover:bg-gray-100 mb-5 lg:mb-0 md:mb-0 sm:mb-0 hover:scale-105 transition-all duration-300 font-cormorant font-medium lg:text-lg md:text-base sm:text-sm w-40 h-11 sm:w-full md:w-full lg:w-full   ml-5 sm:ml-0 md:ml-0 lg:ml-0  lg:w-auto md:w-auto sm:w-full lg:h-10 md:h-9 sm:h-9 px-5 rounded-xl shadow-lg lg:my-3 md:my-2 sm:my-2"
           >
             Agendar Consulta
           </button>

@@ -15,7 +15,7 @@ function Info (){
                 alt="" />
             </div>
             <aside
-            className="grid lg:grid-rows-3 md:grid-rows-3 text-sm text-justify  sm:grid-rows-1 bg-white lg:w-160 md:w-150 md:ml-100 lg:ml-0 sm:w-100 lg:h-140 md:h-150 sm:h-auto lg:px-10 md:px-8 sm:px-6 lg:py-10 md:py-8 sm:py-6 place-items-center rounded-xl shadow-lg"
+            className="grid lg:grid-rows-3 md:grid-rows-3 text-sm text-justify mt-5 lg:mt-0 md:mt-0 sm:mt-0 sm:grid-rows-1 bg-white lg:w-160 md:w-150 md:ml-100 lg:ml-0 sm:w-100 lg:h-140 md:h-150 sm:h-auto lg:px-10 md:px-8 sm:px-6 lg:py-10 md:py-8 sm:py-6 place-items-center rounded-xl shadow-lg"
             >
                 <span
                 className="text-textmain font-cormorant font-z text-2xl mt-5 sm:mt-0 md:mt-0 lg:mt-0 lg:text-2xl md:text-xl sm:text-lg lg:h-10 md:h-8 sm:h-6 lg:mb-20 md:mb-12 sm:mb-6">

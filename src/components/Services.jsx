@@ -16,7 +16,7 @@ function Services (){
             className="grid grid-rows-3 px-5 sm:px-0 md:px-0 lg:px-0 lg:grid-rows-3 md:grid-rows-3 sm:grid-rows-1 w-full lg:px-10 md:px-8 sm:px-6 lg:py-10 md:py-8 sm:py-6 place-items-center"
             >
                 <span
-                className="text-textmain text-2xl font-cormorant font-medium lg:text-2xl md:text-xl sm:text-lg"
+                className="text-textmain text-2xl font-cormorant mt-5 lg:mt-0 md:mt-0 sm:mt-0 font-medium lg:text-2xl md:text-xl sm:text-lg"
                 >
                     
                     Serviços
