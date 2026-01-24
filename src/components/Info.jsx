@@ -4,7 +4,7 @@ import therapy from "./Assets/therapy-office.jpg";
 function Info (){
     return(
         <section id="Sobre"
-        className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 w-90 place-self-center sm:w-full md:w-100 lg:w-300 lg:px-20 md:px-10 sm:px-6 lg:py-20 md:py-12 sm:py-8 gap-10 place-items-center"
+        className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 w-90 place-self-center sm:w-full md:w-100 lg:w-auto lg:px-20 md:px-10 sm:px-6 lg:py-20 md:py-12 sm:py-8 gap-10 place-items-center"
         >
             <div
             className="rotate-3 bg-gray-200 md:hidden lg:block hidden  lg:w-160 md:w-100 sm:w-full lg:h-135 md:h-120 sm:h-auto place-items-center flex justify-center items-center rounded-xl shadow-lg"
@@ -15,7 +15,7 @@ function Info (){
                 alt="" />
             </div>
             <aside
-            className="grid lg:grid-rows-3 md:grid-rows-3 text-sm text-justify  sm:grid-rows-1 bg-white lg:w-160 md:w-150 md:ml-100 sm:w-100 lg:h-140 md:h-150 sm:h-auto lg:px-10 md:px-8 sm:px-6 lg:py-10 md:py-8 sm:py-6 place-items-center rounded-xl shadow-lg"
+            className="grid lg:grid-rows-3 md:grid-rows-3 text-sm text-justify  sm:grid-rows-1 bg-white lg:w-160 md:w-150 md:ml-100 lg:ml-0 sm:w-100 lg:h-140 md:h-150 sm:h-auto lg:px-10 md:px-8 sm:px-6 lg:py-10 md:py-8 sm:py-6 place-items-center rounded-xl shadow-lg"
             >
                 <span
                 className="text-textmain font-cormorant font-z text-2xl mt-5 sm:mt-0 md:mt-0 lg:mt-0 lg:text-2xl md:text-xl sm:text-lg lg:h-10 md:h-8 sm:h-6 lg:mb-20 md:mb-12 sm:mb-6">
