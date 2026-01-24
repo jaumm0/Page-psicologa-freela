@@ -47,24 +47,11 @@ function Info (){
                     </li>
                 </ul>
                 <ul
-                className="font-inter font-medium text-ulheader grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-4 lg:text-sm md:text-xs sm:text-xs lg:w-120 md:w-full sm:w-full place-items-center"
+                className="font-inter font-medium text-ulheader grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 lg:px-10 lg:text-sm md:text-xs sm:text-xs lg:w-120 md:w-full sm:w-full place-items-center"
                 >
+                    
                     <li
-                    className="bg-bgIcon lg:h-8 md:h-7 sm:h-6 mt-5 sm:mb-0 md:mb-0 lg:mb-0 flex justify-center text-textmain items-center lg:w-40 md:w-32 sm:w-24 rounded-xl shadow-lg"
-                    >   
-                        <span>
-                            CRP 00/00000
-                        </span>
-                    </li>
-                    <li
-                    className="bg-bgIcon lg:h-8 md:h-7 sm:h-6 flex justify-center text-textmain items-center lg:w-40 md:w-32 sm:w-24 rounded-xl shadow-lg"
-                    >
-                        <span>
-                            Especialista em TCC
-                        </span>
-                    </li>
-                    <li
-                    className="bg-bgIcon lg:h-8 md:h-7 sm:h-6 mb-5 sm:mb-0 md:mb-0 lg:mb-0 flex justify-center text-textmain items-center lg:w-50 md:w-40 sm:w-28 rounded-xl shadow-lg"
+                    className="bg-bgIcon lg:h-8 md:h-7 sm:h-6 mb-5 mt-5 sm:mt-0 md:mt-0 lg:mt-0 sm:mb-0 md:mb-0 lg:mb-0 flex justify-center text-textmain items-center lg:w-60 md:w-40 sm:w-28 rounded-xl shadow-lg"
                     >
                         <span
                         className=""
@@ -72,6 +59,18 @@ function Info (){
                             Pós-graduada Neuropsicologia
                         </span>
                     </li>
+                    <li
+                    className="bg-bgIcon lg:h-8 md:h-7 sm:h-6 mb-5 sm:mb-0 md:mb-0 lg:mb-0 lg:ml-60  flex justify-center text-textmain items-center lg:w-60 md:w-40 sm:w-28 rounded-xl shadow-lg"
+                    >
+                        <span
+                        className=""
+                        >
+                            CRP 00/00000
+                        </span>
+                    </li>
+                   
+                   
+                  
                 </ul>
             </aside>
         </section>
