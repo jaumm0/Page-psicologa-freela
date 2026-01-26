@@ -9,7 +9,11 @@ function Main ({ onAgendarClick }){
             <div 
             className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 w-full  lg:h-auto md:h-auto sm:h-auto bg-mainbg lg:px-10 md:px-6 sm:px-4 lg:pt-0 md:pt-0 sm:pt-0 lg:pb-20 md:pb-16 sm:pb-12">
             <section 
+<<<<<<< HEAD
             className="grid place-items-center sm:place-items-start mt-10    "
+=======
+            className="grid place-items-center sm:place-items-start mt-10 md:mr-10    "
+>>>>>>> adda377d17b5b41dba5c65781dbdf73dd9e66b39
             >
                 <span
                 className=" text-textmain font-medium lg:text-lg md:text-base sm:text-sm lg:text-start md:text-start sm:text-center "
@@ -51,7 +55,11 @@ function Main ({ onAgendarClick }){
                         </button>
                         <button
                         onClick={() => document.getElementById('Sobre')?.scrollIntoView({ behavior: 'smooth' })}
+<<<<<<< HEAD
                         className="font-medium lg:text-lg md:text-base sm:text-sm sm:w-50  w-40  h-13 px-2   text-textmain rounded-xl hover:bg-buttonS border-2 border-buttonS hover:text-white transition-all duration-150 cursor-pointer"
+=======
+                        className="font-medium lg:text-lg md:text-base sm:text-sm sm:w-50  w-40  h-13 px-2 md:w-40 lg:w-70  text-textmain rounded-xl hover:bg-buttonS border-2 border-buttonS hover:text-white transition-all duration-150 cursor-pointer"
+>>>>>>> adda377d17b5b41dba5c65781dbdf73dd9e66b39
                         > 
                             Conhecer Mais
                         </button>
@@ -60,7 +68,11 @@ function Main ({ onAgendarClick }){
                 className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 my-5 lg:my-0 lg:my-0 md:my-0 sm:my-0  gap-5 lg:py-2 md:py-2 sm:py-2"
                 >
                     <ul
+<<<<<<< HEAD
                     className="grid grid-cols-3 lg:grid-cols- md:grid-cols-3 sm:grid-cols-1 grid-cols-3 lg:py-2 md:py-2 sm:py-2 lg:w-full md:w-full sm:w-full place-items-center lg:divide-x md:divide-x sm:divide-x-0 border-ulheader gap-4 lg:gap-0"
+=======
+                    className="grid grid-cols-3 lg:grid-cols- md:hidden md:grid-cols-3 sm:grid-cols-1 grid-cols-3 lg:py-2 md:py-2 sm:py-2 lg:w-full md:w-full sm:w-full place-items-center lg:divide-x md:divide-x sm:divide-x-0 border-ulheader gap-4 lg:gap-0"
+>>>>>>> adda377d17b5b41dba5c65781dbdf73dd9e66b39
                     >
                         <li
                         className="place-items-center lg:pr-5 md:pr-3 sm:pr-0 text-center"
@@ -110,7 +122,11 @@ function Main ({ onAgendarClick }){
                         />
                     </section>
                     {/* Atendimento Humanizado - Posicionado sobre a imagem */}
+<<<<<<< HEAD
                     <div className="absolute lg:bottom-8 md:bottom-6 sm:bottom-4 hidden sm:block lg:right-8 md:right-6 sm:right-4 bg-white rounded-xl shadow-xl px-4 py-3 flex items-center gap-3">
+=======
+                    <div className="absolute md:hidden lg:bottom-8 md:bottom-6 sm:bottom-4 hidden sm:block lg:right-8 md:right-6 sm:right-4 bg-white rounded-xl shadow-xl px-4 py-3 flex items-center gap-3">
+>>>>>>> adda377d17b5b41dba5c65781dbdf73dd9e66b39
                         <img 
                             className="lg:w-10 md:w-9 sm:w-8 lg:h-10 md:h-9 sm:h-8 object-cover rounded-full"
                             src={Greenheart} 
