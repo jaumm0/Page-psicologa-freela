@@ -46,9 +46,7 @@ function Info() {
           <li className="bg-bgIcon h-8 flex items-center justify-center rounded-xl shadow-lg px-4">
             CRP 00/00000
           </li>
-          <li className="bg-bgIcon h-8 flex items-center justify-center rounded-xl shadow-lg px-4">
-            Especialista em TCC
-          </li>
+          
           <li className="bg-bgIcon h-8 flex items-center justify-center rounded-xl shadow-lg px-4 mb-5 lg:mb-0 md:mb-0 sm:mb-0">
             Pós-graduada em Neuropsicologia
           </li>
