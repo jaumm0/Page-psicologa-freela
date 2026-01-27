@@ -1,8 +1,18 @@
 import React, { useState } from 'react';
 import { X, Calendar, Clock, User, Mail, Phone, MessageSquare } from 'lucide-react';
+<<<<<<< HEAD
 import emailjs from '@emailjs/browser';
 import { emailjsConfig } from '../config/emailjs.config';
 
+=======
+
+HEAD
+import emailjs from '@emailjs/browser';
+import { emailjsConfig } from '../config/emailjs.config';
+
+ adda377d17b5b41dba5c65781dbdf73dd9e66b39
+
+>>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
 function BookingModal({ isOpen, onClose }) {
   const [formData, setFormData] = useState({
     name: '',
@@ -12,7 +22,13 @@ function BookingModal({ isOpen, onClose }) {
     time: '',
     message: ''
   });
+<<<<<<< HEAD
   const [isSubmitting, setIsSubmitting] = useState(false);
+=======
+ HEAD
+  const [isSubmitting, setIsSubmitting] = useState(false);
+ adda377d17b5b41dba5c65781dbdf73dd9e66b39
+>>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
 
   const handleChange = (e) => {
     setFormData({
@@ -21,6 +37,10 @@ function BookingModal({ isOpen, onClose }) {
     });
   };
 
+<<<<<<< HEAD
+=======
+ HEAD
+>>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -64,6 +84,25 @@ function BookingModal({ isOpen, onClose }) {
     } finally {
       setIsSubmitting(false);
     }
+<<<<<<< HEAD
+=======
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Aqui você pode adicionar a lógica para enviar o formulário
+    console.log('Formulário enviado:', formData);
+    alert('Solicitação de agendamento enviada! Entraremos em contato em breve.');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      date: '',
+      time: '',
+      message: ''
+    });
+    onClose();
+ adda377d17b5b41dba5c65781dbdf73dd9e66b39
+>>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
   };
 
   if (!isOpen) return null;
@@ -217,10 +256,22 @@ function BookingModal({ isOpen, onClose }) {
             </button>
             <button
               type="submit"
+<<<<<<< HEAD
+=======
+               HEAD
+>>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
               disabled={isSubmitting}
               className="flex-1 px-6 py-3 bg-buttonp text-white rounded-xl font-inter font-medium hover:bg-hoverBtn transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isSubmitting ? 'Enviando...' : 'Confirmar Agendamento'}
+<<<<<<< HEAD
+=======
+
+              className="flex-1 px-6 py-3 bg-buttonp text-white rounded-xl font-inter font-medium hover:bg-hoverBtn transition-all duration-200"
+            
+              Confirmar Agendamento
+ adda377d17b5b41dba5c65781dbdf73dd9e66b39
+>>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
             </button>
           </div>
         </form>
@@ -228,5 +279,9 @@ function BookingModal({ isOpen, onClose }) {
     </div>
   );
 }
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
 export default BookingModal;

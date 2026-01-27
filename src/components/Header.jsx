@@ -25,8 +25,17 @@ function Header ({ onAgendarClick }){
                 
                 {/* Menu Desktop */}
                 <ul 
+<<<<<<< HEAD
                 className="hidden lg:flex md:flex sm:hidden  gap-2 lg:gap-4 text-xs lg:text-base md:text-sm font-inter font-medium items-center"
                 >
+=======
+ HEAD
+                className="hidden lg:flex md:flex sm:hidden  gap-2 lg:gap-4 text-xs lg:text-base md:text-sm font-inter font-medium items-center"
+
+                 adda377d17b5b41dba5c65781dbdf73dd9e66b39
+             
+             >
+>>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
                     <li className="text-ulheader hover:text-hovertxt transition duration-200 whitespace-nowrap">
                         <a href="#Sobre">Sobre</a>
                     </li>
@@ -41,9 +50,21 @@ function Header ({ onAgendarClick }){
                     </li>
                     <button
                     onClick={onAgendarClick}
+<<<<<<< HEAD
                     className="font-medium text-xs lg:text-base md:text-sm px-2 lg:px-4 py-1.5 lg:py-2 pr-10 text-white cursor-pointer rounded-xl bg-buttonp hover:bg-hoverBtn whitespace-nowrap transition-all duration-200"
                     >
                         Agendar
+=======
+                        HEAD
+                    className="font-medium text-xs lg:text-base md:text-sm px-2 lg:px-4 py-1.5 lg:py-2 pr-10 text-white cursor-pointer rounded-xl bg-buttonp hover:bg-hoverBtn whitespace-nowrap transition-all duration-200"
+                    >
+                    Agendar
+
+                    className="font-medium text-xs lg:text-base md:text-sm px-2 md:px-4 lg:px-4 py-1.5  lg:py-2 pr-10 text-white cursor-pointer rounded-xl bg-buttonp hover:bg-hoverBtn whitespace-nowrap transition-all duration-200"
+                    
+                       <a href="#Agendar">Agendar</a>
+ adda377d17b5b41dba5c65781dbdf73dd9e66b39
+>>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
                     </button>
                 </ul>
 
