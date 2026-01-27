@@ -69,11 +69,11 @@ function Contact({ onAgendarClick }) {
         </div>
 
        
-        <ul className="space-y-2 px-5 sm:px-0 md:px-0 lg:px-0">
+        <ul className="space-y-2 px-5  sm:px-0 md:px-0 lg:px-0">
           <li>
             <div className="flex items-center cursor-pointer shadow-lg lg:h-auto md:h-auto sm:h-auto lg:px-4 md:px-3 sm:px-2 lg:py-3 md:py-2 sm:py-2 hover:scale-105 transition-all duration-150 rounded-lg">
               <Smartphone size={32} className="p-1 rounded-xl bg-bgIcon text-textmain lg:mr-4 md:mr-3 sm:mr-2 flex-shrink-0" />
-              <span className="font-inter font-medium text-ulheader hover:text-textmain transition-colors duration-200 lg:text-sm md:text-xs sm:text-xs break-all">
+              <span className="font-inter py-2 lg:py-0 md:py-0 sm:py-0 font-medium text-ulheader hover:text-textmain transition-colors duration-200 lg:text-sm md:text-xs sm:text-xs break-all">
                 (11) 91234-5678
               </span>
             </div>
@@ -81,7 +81,7 @@ function Contact({ onAgendarClick }) {
           <li>
             <div className="flex items-center cursor-pointer shadow-lg lg:h-auto md:h-auto sm:h-auto lg:px-4 md:px-3 sm:px-2 lg:py-3 md:py-2 sm:py-2 hover:scale-105 transition-all duration-150 rounded-lg">
               <Mail size={32} className="p-1 rounded-xl bg-bgIcon text-textmain lg:mr-4 md:mr-3 sm:mr-2 flex-shrink-0" />
-              <span className="font-inter font-medium text-ulheader hover:text-textmain transition-colors duration-200 lg:text-sm md:text-xs sm:text-xs break-all">
+              <span className="font-inter py-2 lg:py-0 md:py-0 sm:py-0 font-medium text-ulheader hover:text-textmain transition-colors duration-200 lg:text-sm md:text-xs sm:text-xs break-all">
                 contato@psicologa.com
               </span>
             </div>
@@ -89,7 +89,7 @@ function Contact({ onAgendarClick }) {
           <li>
             <div className="flex items-center cursor-pointer shadow-lg lg:h-auto md:h-auto sm:h-auto lg:px-4 md:px-3 sm:px-2 lg:py-3 md:py-2 sm:py-2 hover:scale-105 transition-all duration-150 rounded-lg">
               <Instagram size={32} className="p-1 rounded-xl bg-bgIcon text-textmain lg:mr-4 md:mr-3 sm:mr-2 flex-shrink-0" />
-              <span className="font-inter font-medium text-ulheader hover:text-textmain transition-colors duration-200 lg:text-sm md:text-xs sm:text-xs break-all">
+              <span className="font-inter py-2 lg:py-0 md:py-0 sm:py-0 font-medium text-ulheader hover:text-textmain transition-colors duration-200 lg:text-sm md:text-xs sm:text-xs break-all">
                 @dra.anabeatriz
               </span>
             </div>
@@ -97,7 +97,7 @@ function Contact({ onAgendarClick }) {
           <li>
             <div className="flex items-center cursor-pointer shadow-lg lg:h-auto md:h-auto sm:h-auto lg:px-4 md:px-3 sm:px-2 lg:py-3 md:py-2 sm:py-2 hover:scale-105 transition-all duration-150 rounded-lg">
               <Linkedin size={32} className="p-1 rounded-xl bg-bgIcon text-textmain lg:mr-4 md:mr-3 sm:mr-2 flex-shrink-0" />
-              <span className="font-inter font-medium text-ulheader hover:text-textmain transition-colors duration-200 lg:text-sm md:text-xs sm:text-xs break-all">
+              <span className="font-inter py-2 lg:py-0 md:py-0 sm:py-0 font-medium text-ulheader hover:text-textmain transition-colors duration-200 lg:text-sm md:text-xs sm:text-xs break-all">
                 Dra. Ana Beatriz
               </span>
             </div>
