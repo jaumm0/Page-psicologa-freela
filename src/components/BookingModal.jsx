@@ -1,18 +1,6 @@
 import React, { useState } from 'react';
 import { X, Calendar, Clock, User, Mail, Phone, MessageSquare } from 'lucide-react';
-<<<<<<< HEAD
-import emailjs from '@emailjs/browser';
-import { emailjsConfig } from '../config/emailjs.config';
 
-=======
-
-HEAD
-import emailjs from '@emailjs/browser';
-import { emailjsConfig } from '../config/emailjs.config';
-
- adda377d17b5b41dba5c65781dbdf73dd9e66b39
-
->>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
 function BookingModal({ isOpen, onClose }) {
   const [formData, setFormData] = useState({
     name: '',
@@ -22,13 +10,6 @@ function BookingModal({ isOpen, onClose }) {
     time: '',
     message: ''
   });
-<<<<<<< HEAD
-  const [isSubmitting, setIsSubmitting] = useState(false);
-=======
- HEAD
-  const [isSubmitting, setIsSubmitting] = useState(false);
- adda377d17b5b41dba5c65781dbdf73dd9e66b39
->>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
 
   const handleChange = (e) => {
     setFormData({
@@ -36,56 +17,6 @@ function BookingModal({ isOpen, onClose }) {
       [e.target.name]: e.target.value
     });
   };
-
-<<<<<<< HEAD
-=======
- HEAD
->>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    try {
-      // Configuração do EmailJS
-      // Você precisará criar uma conta no EmailJS (https://www.emailjs.com/)
-      // e configurar um template de email
-      const templateParams = {
-        to_email: 'jv224063@gmail.com',
-        from_name: formData.name,
-        from_email: formData.email,
-        phone: formData.phone,
-        date: formData.date,
-        time: formData.time,
-        message: formData.message || 'Nenhuma mensagem adicional',
-        reply_to: formData.email
-      };
-
-      // Enviar email usando EmailJS
-      await emailjs.send(
-        emailjsConfig.serviceId,
-        emailjsConfig.templateId,
-        templateParams,
-        emailjsConfig.publicKey
-      );
-
-      alert('Solicitação de agendamento enviada com sucesso! Entraremos em contato em breve.');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        date: '',
-        time: '',
-        message: ''
-      });
-      onClose();
-    } catch (error) {
-      console.error('Erro ao enviar email:', error);
-      alert('Erro ao enviar o agendamento. Por favor, tente novamente ou entre em contato diretamente.');
-    } finally {
-      setIsSubmitting(false);
-    }
-<<<<<<< HEAD
-=======
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -101,8 +32,6 @@ function BookingModal({ isOpen, onClose }) {
       message: ''
     });
     onClose();
- adda377d17b5b41dba5c65781dbdf73dd9e66b39
->>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
   };
 
   if (!isOpen) return null;
@@ -256,22 +185,9 @@ function BookingModal({ isOpen, onClose }) {
             </button>
             <button
               type="submit"
-<<<<<<< HEAD
-=======
-               HEAD
->>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
-              disabled={isSubmitting}
-              className="flex-1 px-6 py-3 bg-buttonp text-white rounded-xl font-inter font-medium hover:bg-hoverBtn transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              {isSubmitting ? 'Enviando...' : 'Confirmar Agendamento'}
-<<<<<<< HEAD
-=======
-
               className="flex-1 px-6 py-3 bg-buttonp text-white rounded-xl font-inter font-medium hover:bg-hoverBtn transition-all duration-200"
-            
+            >
               Confirmar Agendamento
- adda377d17b5b41dba5c65781dbdf73dd9e66b39
->>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
             </button>
           </div>
         </form>
@@ -279,9 +195,5 @@ function BookingModal({ isOpen, onClose }) {
     </div>
   );
 }
-<<<<<<< HEAD
 
-=======
-}
->>>>>>> 049ac20c9c5a4c8e13dad069b9ae9c4deb4af6de
 export default BookingModal;
